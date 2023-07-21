@@ -11,6 +11,7 @@ import { CV } from './App/CV';
 import { Calendar } from './App/Calendar';
 import { TechStack } from './App/TechStack';
 import { Blog } from './App/Blog'
+import { Material } from './App/Material';
 
 export function App() {
   return (
@@ -25,6 +26,7 @@ export function App() {
           <Route path="cv/*" element={<CV />} />
           <Route path="calendar/*" element={<Calendar />} />
           <Route path="blog/*" element={<Blog />} />
+          <Route path="material/*" element={<Material />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
