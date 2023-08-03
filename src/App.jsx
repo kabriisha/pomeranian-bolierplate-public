@@ -12,6 +12,7 @@ import { Calendar } from './App/Calendar';
 import { TechStack } from './App/TechStack';
 import { Blog } from './App/Blog'
 
+
 export function App() {
   return (
     <BrowserRouter>
@@ -20,6 +21,7 @@ export function App() {
           <Route index element={<Navigate to="dashboard" />} />
           <Route path="dashboard/*" element={<Dashboard />} />
           <Route path="exercises/*" element={<Exercises />} />
+          <Route path="tech-stack/*" element={<TechStack />} />
           <Route path="blocks/*" element={<Blocks />} />
           <Route path="techstack/*" element={<TechStack />} />
           <Route path="cv/*" element={<CV />} />
