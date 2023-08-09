@@ -1,4 +1,3 @@
-import { scryRenderedComponentsWithType } from 'react-dom/test-utils';
 import './styles.css';
 
 export function Exercise() {

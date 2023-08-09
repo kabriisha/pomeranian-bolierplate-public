@@ -1,9 +1,10 @@
 import React from 'react';
 
+
 import { FloatsAndPositioning } from './index';
 
 
-export const blockRouterMetaData = {
+export const floatsAndPositioning = {
 
   path: 'floats-and-positioning',
   date: '19-07-2023',
