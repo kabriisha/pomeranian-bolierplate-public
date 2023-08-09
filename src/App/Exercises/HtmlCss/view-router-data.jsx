@@ -7,16 +7,16 @@ import { blockRouterMetaData as BackgroundsMetaData } from './Backgrounds/router
 import { blockRouterMetaData as tableTennisMetaData } from './TableTennis/router-data';
 import { blockRouterMetaData as arrayRenderingMetaData } from './ArrayRendering/router-data';
 import { blockRouterMetaData as arrayRenderingToTableMetaData } from './ArrayRenderingToTable/router-data';
-import { floatsAndPositioning } from './FloatsAndPositioning/router-data';
 
 
 
-export const blockRouterMetaData = [blockRouterMetaData121220231,
+export const blockRouterMetaData = [
+    blockRouterMetaData121220231,
     cssColorsMetaData,
     ImageFilesMetaData,
     BackgroundsMetaData,
     tableTennisMetaData,
     arrayRenderingMetaData,
     arrayRenderingToTableMetaData,
-    floatsAndPositioning,];
+];
 export const blockRouterData = getParsedRouterDataList(blockRouterMetaData);
